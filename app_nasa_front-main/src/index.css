@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    background-image: url("src/assets/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #42166bad;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.App h1 {
+    color: #ffffff;
+}
+
+.buttons-container {
+    margin: 20px;
+    text-align: left; /* Alinear botones a la izquierda */
+}
+
+button {
+    display: block; /* Hace que cada botón esté en su propia línea */
+    margin: 20px 0; /* Mayor separación arriba y abajo entre botones */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    border-bottom: 2px solid #ffffff; /* Borde inferior */
+    border-radius: 15%;
+    color: #ffffff; /* Color del texto */
+    transition: border-bottom 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo translúcido al pasar el cursor */
+    border-bottom: 2px solid #f0f0f0; /* Cambia el color del borde al pasar el cursor */
+}
+
+.content, .activities {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+li {
+    padding: 5px 0;
+}
+
+.div-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.room-box {
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 50%;
+    background-color: #8885;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-title {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.room-mods {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.room-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    gap: 30px;
+}
+
+.game-box {
+    width: 100px;
+    height: 100px;
+    background-image: url("src/assets/rocket_796800.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.9s ease;
+}
+
+.game-box:hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.game-box:active {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+/* Estilos para Activities */
+.activities-container {
+    display: flex;
+    gap: 20px;
+}
+
+.available-activities, .selected-activities {
+    flex: 1;
+    border: 1px solid #ccc; /* Agregar borde para las columnas */
+    padding: 10px;
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo suave para diferenciación */
+}
+
+.selected-activities {
+    background-color: rgba(0, 255, 0, 0.1); /* Diferenciar la columna seleccionada */
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 5px; /* Espacio adicional */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+ul>li:hover {
+    color: #ff6347; /* Cambia el color al pasar el cursor */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo al pasar el cursor */
+}
+
+.selected-activities.dragging {
+    background-color: rgba(0, 255, 0, 0.2); /* Fondo al arrastrar */
+}
+
+
+/*ABOUT US*/
+
+.div-root-about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.p-about-us{
+    border-radius: 50px;
+    background-color: #0005;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+.about-us-img{
+    margin: auto;
+    margin-bottom: 0;
+}

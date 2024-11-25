@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P'!important;
+    background-color: black;
+     /* Esto afecta a toda la aplicación */
+  }
+
+  
+  .container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+  }
+
+  .landing-h1{
+    
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+    height: 10vh;
+    background-color: #000;
+  }
+
+  .landing-h2{
+    padding: 0;
+    margin: 0;
+    height: 5vh;
+    
+    background-color: #000;
+  }
+
+  .landing-link{
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    
+    background-color: #000;
+  }
